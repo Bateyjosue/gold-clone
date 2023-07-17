@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body class="">
-    <header class="lg:flex lg: lg:px-12 lg:justify-between items-center bg-red-300">
-      <div class="logo lg:w-64"><img src="./assets/logo.svg" class="object-fill" alt=""></div>
+    <header class="flex pl-4 lg:px-12 justify-between items-center">
+      <div class="logo lg:w-64 pt-4"><img src="./assets/logo.svg" class="object-fill" alt=""></div>
       <nav>
-        <ul class="lg:flex">
-          <li  class="hover:bg-[#2b2b2b] lg:py-6 lg:px-6">
+        <ul class="flex ">
+          <li  class="hover:bg-[#2b2b2b] py-6 px-2 lg:py-6 lg:px-6">
             <img src="./assets/charm-menu-staff-students.svg" alt="" class="object-fill hidden lg:block">
+            <span class="material-symbols-outlined hover:text-yellow-400 text-gray-600 text-2xl lg:hidden">school</span>
           </li>
-          <li  class="hover:bg-[#2b2b2b] lg:py-6 lg:px-6">
-            <img src="./assets/charm-menu-search.svg" alt="" class="object-fill lg:w-20 lg:block">
+          <li  class="hover:bg-[#2b2b2b] py-6 px-2 lg:py-6 lg:px-6">
+            <img src="./assets/charm-menu-search.svg" alt="" class="object-fill hidden lg:w-20 lg:block">
+            <span class="material-symbols-outlined hover:text-yellow-400 text-gray-600 text-2xl lg:hidden"> search</span>
           </li>
-          <li  class="hover:bg-[#2b2b2b] lg:py-6 lg:px-6">
-            <img src="./assets/charm-menu.svg" alt="" class="object-fill lg:w-20">
+          <li  class="hover:bg-[#2b2b2b] py-6 px-4 lg:py-6 lg:px-6">
+            <img src="./assets/charm-menu.svg" alt="" class="object-fill hidden lg:w-20">
+            <span class="material-symbols-outlined hover:text-yellow-400 text-gray-600 text-2xl lg:hidden">menu</span>
           </li>
         </ul>
       </nav>
